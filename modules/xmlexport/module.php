@@ -35,7 +35,10 @@ $ViewList['roles'] = array(
     'functions' => array( 'export' ),
     'script' => 'roles.php',
     'params' => array( ) );
-
+$ViewList['content'] = array(
+    'functions' => array( 'export' ),
+    'script' => 'content.php',
+    'params' => array( 'NodeId' ) );
 
 $FunctionList = array();
 $FunctionList['export'] = array( );
